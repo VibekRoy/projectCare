@@ -1,11 +1,62 @@
-TO RUN THE PROJECT LOCALLY:
 
-1. GO TO THE FOLDER IN TERMINAL AND MAKE SURE NODE.JS IS INSTALLED ON LOCAL MACHINE
+# Tech Care 🩺💊
 
-2. INSIDE THE TERMINAL WRITE: npm i
+This app showcases the details of the patients from an API, and also it plots the historic data of Blood Pressure on a chart for better understanding.
+---
 
-3. AFTER THE PACKAGES ARE INSTALLED WRITE: npm run dev
+## Demo
 
-4. THE PROJECT WILL RUN ON http://localhost:5173/
+You can checkout the project here : https://slotify-j08i.onrender.com/
 
-The API response are shared across the project using Context API of ReactJS and the States are managed properly with proper readable code.
+## Features ✨
+
+- **Chart** Better visuals and understanding from the chart.
+- **Search** Realtime search for patients.
+
+---
+
+## Screenshots 🌟
+
+### Home Page
+![Home Page](./Screenshots/Dashboard.png)
+
+### Home Page (Search)
+![Login](./Screenshots/Search.png)
+
+## Tech Stack 🛠️
+
+- **Frontend:** React for interactive UI.
+
+---
+
+## Installation & Setup 🚀
+
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/VibekRoy/projectCare.git
+   cd ProjectCare
+   ```
+
+2. Set up the frontend:
+   ```bash
+   npm install
+   ```
+
+5. Start the frontend:
+   ```bash
+   npm run dev
+   ```
+---
+
+## Contributing 🤝
+
+Contributions are welcome! Feel free to fork the repo and submit pull requests.  
+
+---
+
+## Contact 📬
+
+For any queries, feel free to reach out:  
+- **Author:** Vibek Roy  
+- **Email:** vibekroy321@gmail.com
+- **GitHub:** [VibekRoy](https://github.com/VibekRoy)
