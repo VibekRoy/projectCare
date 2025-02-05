@@ -39,3 +39,35 @@
   background-color: #e3e4e6;
   border-radius: 3px;
 }
+
+.search-box{
+  
+  height: 29px;
+  border-radius: 3px;
+  outline: none;
+  border: 1px solid black;
+  width: 100%;
+  margin: 0 20px 0 0;
+  padding:1px 10px;
+  
+}
+.search-icon{
+  cursor:pointer;
+}
+
+.cross-icon{
+  width: 25px;
+}
+
+.icons{
+  display: flex;
+  align-items: center;
+}
+
+.setDisplay{
+  display: none;
+}
+
+.setDisplay1{
+  display: block;
+}

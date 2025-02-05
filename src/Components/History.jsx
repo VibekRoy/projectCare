@@ -130,7 +130,7 @@ function History() {
           <div className="history-title">
             <p className="blood-p">Blood Pressure</p>
             <p className="last-6">
-              Last 6 Months <img src=" expand.svg" alt="" />
+              {/* Last 6 Months <img src=" expand.svg" alt="" /> */}
             </p>
           </div>
           <div className="line-chart">
