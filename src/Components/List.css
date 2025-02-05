@@ -1,0 +1,53 @@
+.diag-list {
+  background-color: white;
+  border-radius: 16px;
+  padding: 20px;
+}
+
+.diag-heading {
+  font-size: 24px;
+  font-weight: 900;
+  margin-bottom: 40px;
+}
+
+.table-head {
+  background-color: #f6f7f8;
+  border-radius: 24px;
+  display: flex;
+  font-size: 14px;
+  font-weight: bold;
+  padding: 16px;
+  margin-bottom: 10px;
+}
+
+.h-1 {
+  width: calc(100% / 3);
+}
+
+.h-2 {
+  width: calc(100% / 2);
+  padding-right: 20px;
+}
+
+.h-3 {
+  width: calc(100% - 100% / 3 - 100% / 2);
+}
+
+.list-card-box {
+  height: 140px;
+  overflow-y: auto;
+}
+
+.list-card-box::-webkit-scrollbar {
+  width: 6px;
+}
+
+.list-card-box::-webkit-scrollbar-thumb {
+  background-color: #072635;
+  border-radius: 3px;
+}
+
+.list-card-box::-webkit-scrollbar-track {
+  background-color: #e3e4e6;
+  border-radius: 3px;
+}

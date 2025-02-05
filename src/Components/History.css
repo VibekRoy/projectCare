@@ -1,0 +1,156 @@
+.history-main {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 16px;
+}
+
+.heading-history {
+  font-size: 24px;
+  font-weight: 900;
+  margin-bottom: 40px;
+}
+
+.chart {
+  border-radius: 12px;
+  background-color: #f4f0fe;
+  height: 298px;
+  padding: 16px;
+  display: flex;
+  gap: 39px;
+}
+
+.health-info {
+  margin-top: 20px;
+  display: flex;
+  gap: 21px;
+}
+
+.w {
+  width: calc(100% / 3);
+  height: fit-content;
+  border-radius: 12px;
+  padding: 16px;
+}
+.w-logo {
+  width: 96px;
+  margin-bottom: 16px;
+}
+.resp {
+  background-color: #e0f3fa;
+}
+.temp {
+  background-color: #ffe6e9;
+}
+.heart {
+  background-color: #ffe6f1;
+}
+
+.type {
+  font-size: 16px;
+  font-weight: 500;
+}
+.type-data {
+  font-size: 30px;
+  font-weight: 800;
+  margin-bottom: 17px;
+}
+.type-data-info {
+  font-weight: 300;
+  font-size: 14px;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.arrow {
+  width: 10px;
+  margin-bottom: 0;
+}
+
+.history-left {
+  width: calc(100% * 2 / 3);
+}
+
+.history-right {
+  width: calc(100% / 3);
+}
+
+.blood-p {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.history-title {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 28px;
+  align-items: center;
+}
+
+.last-6 {
+  font-size: 14px;
+  font-weight: 400;
+}
+.last-6 img {
+  margin-left: 16px;
+  margin-right: 40px;
+}
+
+.line-chart {
+  height: 83%;
+  width: 100%;
+}
+
+.pink-dot {
+  background-color: #e66fd2;
+  width: 14px;
+  height: 14px;
+  border: 1px solid #ffffff;
+  border-radius: 14px;
+  margin-right: 4px;
+}
+
+.purple-dot {
+  background-color: #8c6fe6;
+  width: 14px;
+  height: 14px;
+  border: 1px solid #ffffff;
+  border-radius: 14px;
+  margin-right: 4px;
+}
+
+.sys-h {
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.sys-head {
+  display: flex;
+  align-items: center;
+  margin-bottom: 8px;
+}
+
+.s-val {
+  font-weight: bold;
+  font-size: 22px;
+}
+
+.s-val-text {
+  font-weight: 400;
+  font-size: 14px;
+  display: flex;
+  align-items: center;
+  padding-bottom: 16px;
+}
+
+.s-val-text img {
+  margin-right: 8px;
+}
+
+.systolic {
+  border-bottom: 1px solid #cbc8d4;
+}
+
+.diastolic {
+  margin-top: 16px;
+}

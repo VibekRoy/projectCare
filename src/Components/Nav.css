@@ -1,0 +1,86 @@
+/*Main Settings*/
+
+.navbar {
+  background-color: #fff;
+  width: 100%;
+  padding: 0 32px;
+  border-radius: 70px;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/*Logo-Section*/
+
+.logo {
+  padding: 12px 0;
+  height: 48px;
+}
+
+/*Menu Section*/
+
+.menu {
+  display: flex;
+}
+
+.menu-item img {
+  margin-right: 9px;
+}
+
+.menu-item {
+  margin-right: 56px;
+  height: 41px;
+  display: flex;
+  align-items: center;
+  font-size: 14px;
+  font-weight: bold;
+  transition: all 0.1s ease-in-out;
+}
+
+.menu-item:hover {
+  background-color: #01f0d0;
+  border-radius: 41px;
+  padding: 0 14px;
+}
+
+.selected {
+  background-color: #01f0d0;
+  border-radius: 41px;
+  padding: 0 14px;
+}
+
+/*Profile Section*/
+
+.settings-profile {
+  display: flex;
+}
+
+.profile {
+  display: flex;
+  align-items: center;
+}
+
+.info {
+  margin-left: 8px;
+  padding-right: 12px;
+  margin-right: 6px;
+  font-size: 14px;
+  font-weight: 300;
+  border-right: 1px solid #ededed;
+  color: #707070;
+}
+
+.info span {
+  font-weight: bold;
+  color: #072635;
+}
+
+.settings {
+  display: flex;
+  align-items: center;
+}
+
+.settings img {
+  padding: 6px;
+}

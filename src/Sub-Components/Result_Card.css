@@ -1,0 +1,15 @@
+.result_card:hover{
+    background-color: #F6F7F8;
+
+}
+
+.result_card{
+    height: 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 14px;
+    font-weight: 400;
+    margin-bottom: 5px;
+    padding: 0 16px;
+}
