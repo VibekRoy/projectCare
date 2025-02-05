@@ -22,7 +22,7 @@ function Profile() {
       />
       <p className="profile-details-name">{patient.name}</p>
       <div className="details-info">
-        <img src="../src/assets/BirthIcon.svg" alt="" width={"42px"} />
+        <img src=" BirthIcon.svg" alt="" width={"42px"} />
         <div className="det">
           <p className="det-1">Date of Birth</p>
           <p className="det-2">{DOB_format}</p>
@@ -30,7 +30,11 @@ function Profile() {
       </div>
 
       <div className="details-info">
-        <img src={`../src/assets/${patient.gender=='Female'?'FemaleIcon':'MaleIcon'}.svg`} alt="" width={"42px"} />
+        <img
+          src={` ${patient.gender == "Female" ? "FemaleIcon" : "MaleIcon"}.svg`}
+          alt=""
+          width={"42px"}
+        />
         <div className="det">
           <p className="det-1">Gender</p>
           <p className="det-2">{patient.gender}</p>
@@ -38,7 +42,7 @@ function Profile() {
       </div>
 
       <div className="details-info">
-        <img src="../src/assets/PhoneIcon.svg" alt="" width={"42px"} />
+        <img src=" PhoneIcon.svg" alt="" width={"42px"} />
         <div className="det">
           <p className="det-1">Contact Info.</p>
           <p className="det-2">{patient.phone_number}</p>
@@ -46,7 +50,7 @@ function Profile() {
       </div>
 
       <div className="details-info">
-        <img src="../src/assets/PhoneIcon.svg" alt="" width={"42px"} />
+        <img src=" PhoneIcon.svg" alt="" width={"42px"} />
         <div className="det">
           <p className="det-1">Emergency Contacts</p>
           <p className="det-2">{patient.emergency_contact}</p>
@@ -54,7 +58,7 @@ function Profile() {
       </div>
 
       <div className="details-info">
-        <img src="../src/assets/InsuranceIcon.svg" alt="" width={"42px"} />
+        <img src=" InsuranceIcon.svg" alt="" width={"42px"} />
         <div className="det">
           <p className="det-1">Insurance Provider</p>
           <p className="det-2">{patient.insurance_type}</p>

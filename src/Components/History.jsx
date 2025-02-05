@@ -130,7 +130,7 @@ function History() {
           <div className="history-title">
             <p className="blood-p">Blood Pressure</p>
             <p className="last-6">
-              Last 6 Months <img src="../src/assets/expand.svg" alt="" />
+              Last 6 Months <img src=" expand.svg" alt="" />
             </p>
           </div>
           <div className="line-chart">
@@ -155,9 +155,9 @@ function History() {
               ) : patient.diagnosis_history[0].blood_pressure.systolic.levels.includes(
                   "Lower"
                 ) ? (
-                <img className="arrow" src="../src/assets/ArrowDown.svg" />
+                <img className="arrow" src=" ArrowDown.svg" />
               ) : (
-                <img className="arrow" src="../src/assets/ArrowUp.svg" />
+                <img className="arrow" src=" ArrowUp.svg" />
               )}
               <span>
                 {patient.diagnosis_history[0].blood_pressure.systolic.levels}
@@ -180,9 +180,9 @@ function History() {
               ) : patient.diagnosis_history[0].blood_pressure.diastolic.levels.includes(
                   "Lower"
                 ) ? (
-                <img className="arrow" src="../src/assets/ArrowDown.svg" />
+                <img className="arrow" src=" ArrowDown.svg" />
               ) : (
-                <img className="arrow" src="../src/assets/ArrowUp.svg" />
+                <img className="arrow" src=" ArrowUp.svg" />
               )}
               <span>
                 {patient.diagnosis_history[0].blood_pressure.diastolic.levels}
@@ -193,11 +193,7 @@ function History() {
       </div>
       <div className="health-info">
         <div className="w resp">
-          <img
-            src="../src/assets/respiratory_rate.svg"
-            alt=""
-            className="w-logo"
-          />
+          <img src=" respiratory_rate.svg" alt="" className="w-logo" />
           <p className="type">Respiratory Rate</p>
           <p className="type-data">
             {patient.diagnosis_history[0].respiratory_rate.value} bpm
@@ -210,15 +206,15 @@ function History() {
             ) : patient.diagnosis_history[0].respiratory_rate.levels.includes(
                 "Lower"
               ) ? (
-              <img className="arrow" src="../src/assets/ArrowDown.svg" />
+              <img className="arrow" src=" ArrowDown.svg" />
             ) : (
-              <img className="arrow" src="../src/assets/ArrowUp.svg" />
+              <img className="arrow" src=" ArrowUp.svg" />
             )}
             <span>{patient.diagnosis_history[0].respiratory_rate.levels}</span>
           </p>
         </div>
         <div className="w temp">
-          <img src="../src/assets/temperature.svg" alt="" className="w-logo" />
+          <img src=" temperature.svg" alt="" className="w-logo" />
           <p className="type">Temperature</p>
           <p className="type-data">
             {patient.diagnosis_history[0].temperature.value}°F
@@ -231,15 +227,15 @@ function History() {
             ) : patient.diagnosis_history[0].temperature.levels.includes(
                 "Lower"
               ) ? (
-              <img className="arrow" src="../src/assets/ArrowDown.svg" />
+              <img className="arrow" src=" ArrowDown.svg" />
             ) : (
-              <img className="arrow" src="../src/assets/ArrowUp.svg" />
+              <img className="arrow" src=" ArrowUp.svg" />
             )}
             <span>{patient.diagnosis_history[0].temperature.levels}</span>
           </p>
         </div>
         <div className="w heart">
-          <img src="../src/assets/heartBPM.svg" alt="" className="w-logo" />
+          <img src="HeartBPM.svg" alt="" className="w-logo" />
           <p className="type">Heart Rate</p>
           <p className="type-data">
             {patient.diagnosis_history[0].heart_rate.value} bpm
@@ -252,9 +248,9 @@ function History() {
             ) : patient.diagnosis_history[0].heart_rate.levels.includes(
                 "Lower"
               ) ? (
-              <img className="arrow" src="../src/assets/ArrowDown.svg" />
+              <img className="arrow" src=" ArrowDown.svg" />
             ) : (
-              <img className="arrow" src="../src/assets/ArrowUp.svg" />
+              <img className="arrow" src=" ArrowUp.svg" />
             )}
             <span>{patient.diagnosis_history[0].heart_rate.levels}</span>
           </p>

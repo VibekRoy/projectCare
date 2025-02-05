@@ -16,7 +16,7 @@ function Patient_Card({ name, age, pp, gender, isSelected, onClick }) {
         </div>
 
         <div className="dots">
-          <img src="../src/assets/Dots.svg" alt="" />
+          <img src=" Dots.svg" alt="" />
         </div>
       </div>
     </div>

@@ -11,7 +11,7 @@ function Patients() {
     <div className="Patients">
       <div className="patient-top">
         <p>Patients</p>
-        <img src="../src/assets/search.svg" alt="" />
+        <img src=" search.svg" alt="" />
       </div>
 
       <div className="patient-bottom">

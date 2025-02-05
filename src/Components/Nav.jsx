@@ -6,31 +6,31 @@ const Nav = () => {
   return (
     <div className="navbar">
       <div className="logo">
-        <img src="../src/assets/TestLogo.svg" alt="" />
+        <img src=" TestLogo.svg" alt="" />
       </div>
       <div className="menu">
         <div
           className={`menu-item ${clicked === "Home" ? "selected" : ""}`}
           onClick={() => setClicked("Home")}>
-          <img src="../src/assets/Navbar_Home.svg" alt="" />
+          <img src=" Navbar_Home.svg" alt="" />
           Overview
         </div>
         <div
           className={`menu-item ${clicked === "Patients" ? "selected" : ""}`}
           onClick={() => setClicked("Patients")}>
-          <img src="../src/assets/Navbar_Patients.svg" alt="" />
+          <img src=" Navbar_Patients.svg" alt="" />
           Patients
         </div>
         <div
           className={`menu-item ${clicked === "Schedule" ? "selected" : ""}`}
           onClick={() => setClicked("Schedule")}>
-          <img src="../src/assets/Navbar_Schedule.svg" alt="" />
+          <img src=" Navbar_Schedule.svg" alt="" />
           Schedule
         </div>
         <div
           className={`menu-item ${clicked === "Message" ? "selected" : ""}`}
           onClick={() => setClicked("Message")}>
-          <img src="../src/assets/Navbar_Message.svg" alt="" />
+          <img src=" Navbar_Message.svg" alt="" />
           Message
         </div>
         <div
@@ -38,13 +38,13 @@ const Nav = () => {
             clicked === "Transactions" ? "selected" : ""
           }`}
           onClick={() => setClicked("Transactions")}>
-          <img src="../src/assets/Navbar_Transactions.svg" alt="" />
+          <img src=" Navbar_Transactions.svg" alt="" />
           Transactions
         </div>
       </div>
       <div className="settings-profile">
         <div className="profile">
-          <img src="../src/assets/profile.png" alt="" />
+          <img src=" profile.png" alt="" />
           <div className="info">
             <span>Dr. Jose Simmons</span>
             <br />
@@ -52,8 +52,8 @@ const Nav = () => {
           </div>
         </div>
         <div className="settings">
-          <img src="../src/assets/Navbar_Settings.svg" alt="" />
-          <img src="../src/assets/Navbar_Dots.svg" alt="" />
+          <img src=" Navbar_Settings.svg" alt="" />
+          <img src=" Navbar_Dots.svg" alt="" />
         </div>
       </div>
     </div>
