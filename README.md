@@ -6,12 +6,12 @@ This app showcases the details of the patients from an API, and also it plots th
 
 ## Demo
 
-You can checkout the project here : https://slotify-j08i.onrender.com/
+You can checkout the project here : https://tech-care-three.vercel.app/
 
 ## Features ✨
 
-- **Chart** Better visuals and understanding from the chart.
-- **Search** Realtime search for patients.
+- **Chart:** Better visuals and understanding from the chart.
+- **Search:** Realtime search for patients.
 
 ---
 
